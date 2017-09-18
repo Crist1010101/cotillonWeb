@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+  	<meta http-equiv="X-UA-compatible" content="IE=edge">
+	<meta name="description"; content="Cotillon Personalizado">
+	<link rel="shortcut icon"; href="favicon.ico">
+	<meta name="keywords"; content="tarjetas, souvenirs, invitaciones, linea infantil, cumple 15, bodas, comunion, primer añito">
+  <meta name="viewport"; content="width=device-width, initial-scale=1">
+  <!--bootstrap-->
+      <script src="js/scripts.js" type="text/javascript"></script>
+      <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+      <script src="js/bootstrap.min.js" type="text/javascript"></script>
+      <script src="js/bootstrap.js" type="text/javascript"></script>
+      <script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+      <script src="jQueryAssets/jquery.ui-1.10.4.button.min.js"></script>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+      <link rel="stylesheet" href="css/estilo.css">
+  <!--facebook-->
+
+
+    <title>Cotillon | El Rey Farid</title>
+    <style>
+    body{
+        background-color:rgb(255, 255, 255);
+        height:2000px;
+        }
+    html{
+         height:5000px;
+        }
+    </style>
+    <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+    <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+    <link href="jQueryAssets/jquery.ui.button.min.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : 'your-app-id',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+  </script>s
+    <header>
+      <div id="contendorprincipal" class="container-fluid navbar-fixed-top">
+       <div class="row" id="cabecera";>
+        <div class="col-xs-4 col-md-2 col-sm-2 col-xl-1 col-lg-1 barrasuperior" id="menuON" onclick="return desplegarMenu()"><!--logo solo-->
+        	<img  style="margin-top:4px; text-align:center; vertical-align:media-middle"; src="img/logosolo.png"; width="50px"; alt="Tu Fiesta Personalizada";>
+          <div id="menuOFF" onmouseout="return cerrarMenu()" style="background-color:rgb(26, 88, 145)" width="200px" height="500px" height="auto">
+            <ul class="hidden-sm hidden-md hidden-xl hidden-lg" style="list-style:none; background-color:rgb(65, 129, 249) visibility:hidden; display:none;" width="200px" height="800px" >
+              <li>Babyshower</li>
+              <li>Primer Añito</li>
+              <li>Infantil</li>
+              <li>Mis 15</li>
+              <li>Nuestra Boda</li>
+              <li>Aniversarios</li>
+              <li >Contacto</li>
+            </ul>
+          </div>
+        </div>
+          <div class="col-xs-8 col-sm-5 col-md-4 col-xl-5 col-lg-5 barrasuperior"><!--logo letras-->
+            <img class="botonsuperior" src="img/elreyfaridcom.png" height="35px" style="text-align:center; margin-top:7px" alt="El Rey Farid";></div>
+          <div class="hidden-xs col-sm-5 col-md-6 col-xl-6 col-lg-6 barrasuperior">
+            <nav style="text-align:center; margin-top:12px; color:white; font-family:JosefinSans">
+             <span><a href="#principal" onclick="return principalsection()" class="cabeceraLink">                         <b style="border-right: thin; border-style:solid; border-color:white; border-top:none; border-bottom:none; border-left:none; font-family:JosefinSans">INICIO &nbsp;&nbsp; </b></b></span>
+             <span><a href="http://www.facebook.com/elreyfarid" class="cabeceraLink" target="_blank"><b style="border-right: thin; border-style:solid; border-color:white; border-top:none; border-bottom:none; border-left:none;">&nbsp;&nbsp;FAN PAGE&nbsp;&nbsp;</b></a></span>
+             <span><a href="mailto:contacto@elreyfarid.com" class="cabeceraLink">                    <b>&nbsp;&nbsp;CONTACTO</b></a></span>
+            </nav>
+          </div>
+       </div>
+      </div>
+    </header>
+<div class="container-fluid"> <!--LAS TRES COLUMNAS: NAVEGACION, INFORMACION PRINCIPAL, INFORMACION SECUNDARIA LATERAL--->
+  <div class="row";>
+    <nav id="barranavegacion" class="hidden-xs hidden-sm col-md-2 col-xl-2 col-lg-2"><!--barra navegacion principal-->
+      <ul style="list-style:none; padding:5px; text-align:center;">
+        <li><a href="#Babyshower" onclick="return babyshowersection()">      <div class="botonazulBarra"><b class="botonText">Baby Shower</b></div></a></li>
+        <li><a href="#Infantil"        onclick="return infantilsection()">        <div class="botonazulBarra"><b class="botonText">Infantil</b></div></a></li>
+        <li><a href="#Mis15"           onclick="return mis15section()">           <div class="botonazulBarra"><b class="botonText">Mis 15</b></div></a></li>
+        <li><a href="#Nuestraboda"     onclick="return nuestrabodasection()">     <div class="botonazulBarra"><b class="botonText">Nuestra Boda</b></div></a></li>
+        <li><a href="#Comunion"        onclick="return comunionsection()">        <div class="botonazulBarra"><b class="botonText">Bautismo y Comunion</b></div></a></li>
+        <li><a href="#Aniversarios"    onclick="return aniversariosection()">     <div class="botonazulBarra"><b class="botonText">Aniversarios</b></div></a></li>
+        <li><a href="#laminacomestible"      onclick="return laminasection()">          <div class="botonamarilloBarra"><b class="botonText">Lámina Comestible</b></div></a></li>
+        <li><a href="#bolsitasorpresa"       onclick="return bolsitasorpresasection()"> <div class="botonamarilloBarra"><b class="botonText">Bolsitas Sorpresas</b></div></a></li>
+        <li><a href="#souvenirs"             onclick="return souvenirssection()">       <div class="botonamarilloBarra"><b class="botonText">Souvenirs</b></div></a></li>
+        <li><a href="#pasantesbanderines"    onclick="return pasantesssection()">       <div class="botonamarilloBarra"><b class="botonText">Pasantes y Banderines</b></div></a></li>
+        <li><a href="#tarjetasdeinvitacion"  onclick="return invitacionesssection()">   <div class="botonamarilloBarra"><b class="botonText">Tarjetas De Invitación</b></div></a></li>
+        <li><a href="#pinatas"  onclick="return pinatassection()">         <div class="botonamarilloBarra"><b class="botonText">Piñatas</b></div></a></li>
+      </ul>
+    </nav>
+    <div title="presentacion"; id="columnacentral" class="col-xs-12 col-sm-8 col-md-8 col-xl-8 col-lg-8 columnaprincipal";><!--contenido principal-->
+      <object id="contenidoprincipal" type="text/html" data="presentacion.html" width="100%" height="5000px">
+      </object>
+    </div>
+    <aside id="columnasecundaria" class="col-xs-12 col-sm-12 col-md-2 col-xl-2 col-lg-2">
+      <center><img src="img/gifprimero.gif" width="200px" style="margin-top:5px; margin-bottom;5px; text-align:center; margin-right:5px"><br>
+          <img src="img/gifA.gif"width="200px" style="margin-top:5px; margin-bottom;5px; text-align:center; margin-right:5px"><br>
+      </center>
+      <div class="navbar navbar-fixed-left" style="background-color:azure; margin-top:5px; margin-bottom:0px; margin-left:5px; margin-right:5px; vertical-align:middle; border-color:rgb(5, 117, 235); border-style:solid; border-width:thin;">
+      <center>
+      <address style="font-size:8pt; margin-top:0px; margin-bottom:0px; vertical-align:middle">
+        Cotillón El Rey Farid - Av Siete Lagos 118 - Local 4 - Tel. 0294 4825589 - Cel. 0294 154536130 - contacto@elreyfarid.com <br> Villa La Angostura - Neuquén - Patagonia Argentina</address></center>
+      </div>
+      <form class="css3Form" name="frmContacto" method="post" style="visibility:hidden; display:none">
+        <h4>Contactanos</h4>
+          <ul style="list-style:none; margin-left:5px">
+              <li><input for="first_name" type="text" value="Tu Nombre" style="margin-top:5px"/></li>
+              <li><input for="email" type="text" value="Tu E-mail" style="margin-top:5px"/></li>
+              <li><textarea name="comments" id="consulta" rows="5" style="margin-top:5px" value="Consulta"></textarea></li>
+              <li><input type="submit" class="button" value="Enviar" style="margin-top:5px"/><br>
+          </ul>
+      </form><br>
+      <div class="fb-page" data-href="https://www.facebook.com/ElReyFarid/" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/ElReyFarid/" class="fb-xfbml-parse-ignore">
+          <a href="https://www.facebook.com/ElReyFarid/">Cotillon El Rey Farid
+          </a>
+        </blockquote>
+      </div>
+    </aside>
+    <!--navegacion secundaria, publicidad, promociones--->
+  </div>
+</div>
+
+
+
+    <script type="text/javascript">
+      function desplegarMenu()
+                              {
+                              menuOFF.style.visibility="visible";
+                              menuOFF.style.display="block";
+                              }
+      function cerrarMenu()
+                              {
+                              menuOFF.style.visibility="hidden"
+                              }
+    </script>
+
+  </body>
+</html>

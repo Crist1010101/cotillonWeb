@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+font-family: JosefinSans;
+src: url(../fonts/JosefinSans-SemiBold.ttf);
+}
+@font-face{
+font-family:BerlinSansFB;
+src:url(../fonts/Berlin-Sans-FB-Bold.ttf)
+}
+* {
+margin: 0px;
+padding: 0px;
+}
+img.imagenCabecera{
+                  margin-top:0px;
+                  width:100%;
+                  box-shadow:0px 5px 20px white;
+                  }
+#imagenPresentacion{
+                    box-shadow:0px 0px 0px white;
+                    }
+div{
+    font-family:Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif"
+   }
+img.imgBoton{
+            text-align:center;
+            margin-top:10%;
+            margin-left:10px width:90%
+            }
+#barranavegacion{
+                margin-top:25px;
+                margin-left:0px;
+                background-color:rgb(255, 255, 255);
+                height:1000px; padding:0 0 0 0 }
+div.barrasuperior{
+                  background-image:url(../img/fondoBarrasuperior.png);
+                  background-repeat:round; height:50px;
+                  width:padding; margin-top:0px;
+                  margin-left:0px;
+                  margin-right:0px
+                 }
+#columnacentral{
+               background-color:rgb(255, 255, 255);
+               min-height:1000px;
+               max-height:2000px;
+               padding:5px 5px 5px 0px;
+               margin-top:25px;
+               }
+#contenidoprincipal{
+                    height:5000px;
+                  }
+hgroup{color:#1B0B82}
+img.botonsuperior{
+                 margin-top:5px;
+                 text-align:center
+                 }
+div.botonamarilloBarra{
+                   margin-bottom:0px;
+                   background-image:url(../img/botonmagenta.png);
+                   background-image:radial-gradient();
+                   color:white;
+                   width:100%;
+                   height:60px;
+                   border-color:white;
+                   font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+                   font-size:12pt;
+                   background-size:cover;
+                   }
+div.botonamarilloBarra:hover{background-image:url(../img/botonverde.png)}
+div.botonazulBarra{
+               margin-bottom:0px;
+               color:white;
+               width:100%;
+               height:60px;
+               font-size:12pt;
+               background-image:url(../img/botonazul.png);
+               background-size:cover;
+			         font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+               }
+div.botonazulBarra:hover{
+                      background-image:url(../img/botonamarillo.png);
+                      }
+a{
+  color:white;
+  }
+a:hover{
+       color:white;
+       text-decoration:none;
+       }
+a:active{
+        text-decoration:none;
+}
+a.cabeceraLink{
+              color:white;
+              text-decoration:none;
+              }
+a.cabeceraLink:hover{
+                    text-decoration:none;
+                    color:rgb(185, 198, 255);
+                    }
+.cabeceraLink:active{
+                    text-decoration:none;
+                    color:white;
+                    color:rgb(185, 198, 255);
+                    }
+p{
+  text-indent:20px;
+  text-align:justify;
+ }
+#columnasecundaria{
+                   background-color:rgb(255, 255, 255);
+                   height:800px; padding:0 0 0 0 ;
+                   margin:0 0 0 0;
+                   float:left;
+                   margin-top:25px;
+                  }
+b.botonText{
+            text-align:center;
+            margin-top:30px;
+            margin-bottom:50%;
+            font-family:JosefinSans;text-shadow:1px 1px 4px black;
+           }
+h2.nombreProducto{
+                  width:100%;
+                  color:white;
+                  text-align:center;
+                  font-family:JosefinSans;
+                 }
+/*botones seccion BABYSHOWER*/
+.divBotonbabyshower{
+                    background-color:rgb(170, 254, 126);
+                    font-size:25pt;
+                    text-align:center;
+                    }
+.divBotonbabyshower:hover{
+                         background-color:rgb(211,255,129);
+                         }
+a.btnBabyshower:visited{
+                       text-decoration:none;
+                       color:white;
+                       text-decoration:none;
+                       }
+/*botones seccion MIS 15 */
+.divBotonmis15{
+               background-color:rgb(150, 33, 164);
+               font-size:25pt;
+               text-align:center;
+              }
+.divBotonmis15:hover{
+                     background-color:rgb(167, 70, 254)
+                    }
+a.btnMis15:visited{
+                   text-decoration:none;
+                   color:white;
+                   text-decoration:none;
+                   }
+
+.imagenGaleria{
+               margin-top:10px; margin-left:10px; margin-right:10px;
+			         width:100%;
+			        }
+.tituloCabecera{
+                color:rgb(2, 11, 78);
+                font-family: BerlinSansFB;
+                text-align:center;
+               }
+a.fanpagelink{
+                text-decoration:none;
+                color:blue;
+}
+.texto{
+      font-family:JosefinSans;
+      }
+.imagenGaleria:hover
+              {
+               width:500px;
+               position:fixed;
+               z-index:+1;
+               left:10px;
+               box-shadow:0px 5px 20px grey;
+               float:left;
+              }
+.divBotoninfantil{
+                  background-color:rgb(26, 231, 1);
+                  font-size:25pt;
+                  text-align:center;
+                  height:50px;
+                  }
+.divBotoninfantil:hover{
+                       background-color:rgb(61, 149, 252)
+                       }
+/*menu desplegable*/
+/* fin del menu desplegable*/
