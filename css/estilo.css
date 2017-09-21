@@ -29,26 +29,43 @@ img.imgBoton{
             margin-left:10px width:90%
             }
 #barranavegacion{
-                margin-top:25px;
+                margin-top:50px;
                 margin-left:0px;
-                background-color:rgb(255, 255, 255);
-                height:1000px; padding:0 0 0 0 }
+                margin-right:0px;
+                padding-top:0px;
+                padding-right:0px;
+                background-color:#d3dded;
+                height:1000px; 
+                padding:0pt;
+                }
 div.barrasuperior{
                   background-image:url(../img/fondoBarrasuperior.png);
-                  background-repeat:round; height:50px;
+                  background-repeat:round; 
+                  height:50px;
                   width:padding; margin-top:0px;
                   margin-left:0px;
                   margin-right:0px
                  }
 #columnacentral{
-               background-color:rgb(255, 255, 255);
+               background-color:#d3dded;
                min-height:1000px;
                max-height:2000px;
-               padding:5px 5px 5px 0px;
-               margin-top:25px;
+               padding:0pt;
+               padding-top:0px;
+               padding-left:0px;
+               padding-right:0px;
+               margin-top:50px;
+               margin-left:0px;
+               margin-right:0px;
                }
 #contenidoprincipal{
                     height:5000px;
+                    margin-left:0px;
+                    margin-top:0px;
+                    margin-right:0px;
+                    padding-left:0px;
+                    padding-right:0px;
+                    padding-top:0px;
                   }
 hgroup{color:#1B0B82}
 img.botonsuperior{
@@ -113,7 +130,7 @@ p{
                    height:800px; padding:0 0 0 0 ;
                    margin:0 0 0 0;
                    float:left;
-                   margin-top:25px;
+                   margin-top:50px;
                   }
 b.botonText{
             text-align:center;
@@ -190,5 +207,14 @@ a.fanpagelink{
 .divBotoninfantil:hover{
                        background-color:rgb(61, 149, 252)
                        }
+.imagenCarrusel{
+                width:50%;
+                height:50%;
+                text-align:center;
+               }
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
 /*menu desplegable*/
 /* fin del menu desplegable*/

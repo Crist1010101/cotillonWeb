@@ -1114,14 +1114,15 @@ figure {
 }
 img {
   vertical-align: middle;
+    align-content: center;
 }
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  display: block;
-  max-width: 100%;
+  display:block;
+  max-width:100%;
   height: auto;
 }
 .img-rounded {
@@ -1130,7 +1131,7 @@ img {
 .img-thumbnail {
   display: inline-block;
   max-width: 100%;
-  height: auto;
+  height:auto;
   padding: 4px;
   line-height: 1.42857143;
   background-color: #fff;
@@ -6251,9 +6252,16 @@ button.close {
           transition: .6s ease-in-out left;
           text-align:center;
 }
-.carousel-inner > .item > img,
+.carousel-inner > .item > img{
+    line-height:1;
+    display:inline-block;
+    width:70%;
+    margin:auto;
+}
 .carousel-inner > .item > a > img {
   line-height: 1;
+  width:70%;
+  margin:auto;
 }
 @media all and (transform-3d), (-webkit-transform-3d) {
   .carousel-inner > .item {
