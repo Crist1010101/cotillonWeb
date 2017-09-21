@@ -67,7 +67,9 @@ div.barrasuperior{
                     padding-right:0px;
                     padding-top:0px;
                   }
-hgroup{color:#1B0B82}
+hgroup{
+      color:#1B0B82
+      }
 img.botonsuperior{
                  margin-top:5px;
                  text-align:center
@@ -84,7 +86,9 @@ div.botonamarilloBarra{
                    font-size:12pt;
                    background-size:cover;
                    }
-div.botonamarilloBarra:hover{background-image:url(../img/botonverde.png)}
+div.botonamarilloBarra:hover{
+                            background-image:url(../img/botonverde.png)
+                            }
 div.botonazulBarra{
                margin-bottom:0px;
                color:white;
@@ -111,6 +115,7 @@ a:active{
 a.cabeceraLink{
               color:white;
               text-decoration:none;
+              font-size:9pt;
               }
 a.cabeceraLink:hover{
                     text-decoration:none;
@@ -208,12 +213,12 @@ a.fanpagelink{
                        background-color:rgb(61, 149, 252)
                        }
 .imagenCarrusel{
-                width:50%;
-                height:50%;
+                width:500px;
+                height:500px;
                 text-align:center;
                }
- .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
       width: 70%;
       margin: auto;
 /*menu desplegable*/
