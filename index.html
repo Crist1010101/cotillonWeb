@@ -18,8 +18,6 @@
       <link rel="stylesheet" href="css/bootstrap-theme.min.css">
       <link rel="stylesheet" href="css/estilo.css">
   <!--facebook-->
-
-
     <title>Cotillon | El Rey Farid</title>
     <style>
     body{
@@ -58,7 +56,7 @@
        <div class="row" id="cabecera";>
         <div class="col-xs-4 col-md-2 col-sm-2 col-xl-1 col-lg-1 barrasuperior" id="menuON" onclick="return desplegarMenu()"><!--logo solo-->
         	<img  style="margin-top:4px; text-align:center; vertical-align:media-middle"; src="img/logosolo.png"; width="50px"; alt="Tu Fiesta Personalizada";>
-          <div id="menuOFF" onmouseout="return cerrarMenu()" style="background-color:rgb(26, 88, 145)" width="200px" height="500px" height="auto">
+          <div id="menuOFF" onMouseout="cerrarMenu()" style="background-color:rgb(26, 88, 145)" width="200px" height="500px" height="auto">
             <ul class="hidden-sm hidden-md hidden-xl hidden-lg" style="list-style:none; background-color:rgb(65, 129, 249) visibility:hidden; display:none;" width="200px" height="800px" >
               <li>Babyshower</li>
               <li>Primer Añito</li>
@@ -82,9 +80,10 @@
        </div>
       </div>
     </header>
-<div class="container-fluid"> <!--LAS TRES COLUMNAS: NAVEGACION, INFORMACION PRINCIPAL, INFORMACION SECUNDARIA LATERAL-->
-  <div class="row";>
-    <nav id="barranavegacion" class="hidden-xs hidden-sm col-md-2 col-xl-2 col-lg-2"><!--barra navegacion principal-->
+<div class="container-fluid"> 
+<!--LAS TRES COLUMNAS: NAVEGACION, INFORMACION PRINCIPAL, INFORMACION SECUNDARIA LATERAL-->
+  <div class="row">
+    <nav id="barranavegacion" class="col-xs-12 col-sm-12 col-md-2 col-xl-2 col-lg-2"><!--barra navegacion principal-->
       <ul style="list-style:none; padding:5px; text-align:center;">
         <li><a href="#Babyshower" onclick="return babyshowersection()">      <div class="botonazulBarra"><b class="botonText">Baby Shower</b></div></a></li>
         <li><a href="#Infantil"        onclick="return infantilsection()">        <div class="botonazulBarra"><b class="botonText">Infantil</b></div></a></li>
@@ -132,9 +131,6 @@
     <!--navegacion secundaria, publicidad, promociones-->
   </div>
 </div>
-
-
-
     <script type="text/javascript">
       function desplegarMenu()
                               {
@@ -143,9 +139,8 @@
                               }
       function cerrarMenu()
                               {
-                              menuOFF.style.visibility="hidden"
+                              menuOFF.style.visibility="hidden";
                               }
     </script>
-
   </body>
 </html>
