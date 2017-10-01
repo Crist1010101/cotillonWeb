@@ -12,6 +12,9 @@ src:url(../fonts/Berlin-Sans-FB-Bold.ttf)
 margin: 0px;
 padding: 0px;
 }
+#cabecera{
+	display:block;
+}
 img.imagenCabecera{
                   margin-top:0px;
                   width:100%;
@@ -37,14 +40,17 @@ img.imgBoton{
                 background-color:#d3dded;
                 height:1000px; 
                 padding:0pt;
+				display:block;
                 }
 div.barrasuperior{
                   background-image:url(../img/fondoBarrasuperior.png);
                   background-repeat:round; 
                   height:50px;
-                  width:padding; margin-top:0px;
+                  width:padding;
+				  margin-top:0px;
                   margin-left:0px;
-                  margin-right:0px
+                  margin-right:0px;
+				  display:block;
                  }
 #columnacentral{
                background-color:#d3dded;
@@ -57,6 +63,7 @@ div.barrasuperior{
                margin-top:50px;
                margin-left:0px;
                margin-right:0px;
+			   display:block
                }
 #contenidoprincipal{
                     height:5000px;
@@ -66,6 +73,7 @@ div.barrasuperior{
                     padding-left:0px;
                     padding-right:0px;
                     padding-top:0px;
+					display:block;
                   }
 hgroup{
       color:#1B0B82
@@ -221,5 +229,15 @@ a.fanpagelink{
 .carousel-inner > .item > a > img {
       width: 70%;
       margin: auto;
+}
+#rowMenuXS{
+		margin-top:60px;
+		background-image:url(../img/botonmagenta.png);
+		height:60px;
+		background-image:radial-gradient();
+		}
+
+
+
 /*menu desplegable*/
 /* fin del menu desplegable*/

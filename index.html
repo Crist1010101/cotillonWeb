@@ -53,20 +53,9 @@
   </script>
     <header>
       <div id="contendorprincipal" class="container-fluid navbar-fixed-top">
-       <div class="row" id="cabecera";>
-        <div class="col-xs-4 col-md-2 col-sm-2 col-xl-1 col-lg-1 barrasuperior" id="menuON" onclick="return desplegarMenu()"><!--logo solo-->
+       <div class="row">
+        <div class="col-xs-4 col-md-2 col-sm-2 col-xl-1 col-lg-1 barrasuperior"><!--logo solo-->
         	<img  style="margin-top:4px; text-align:center; vertical-align:media-middle"; src="img/logosolo.png"; width="50px"; alt="Tu Fiesta Personalizada";>
-          <div id="menuOFF" onMouseout="cerrarMenu()" style="background-color:rgb(26, 88, 145)" width="200px" height="500px" height="auto">
-            <ul class="hidden-sm hidden-md hidden-xl hidden-lg" style="list-style:none; background-color:rgb(65, 129, 249) visibility:hidden; display:none;" width="200px" height="800px" >
-              <li>Babyshower</li>
-              <li>Primer Añito</li>
-              <li>Infantil</li>
-              <li>Mis 15</li>
-              <li>Nuestra Boda</li>
-              <li>Aniversarios</li>
-              <li >Contacto</li>
-            </ul>
-          </div>
         </div>
           <div class="col-xs-8 col-sm-5 col-md-4 col-xl-5 col-lg-5 barrasuperior"><!--logo letras-->
             <img class="botonsuperior" src="img/elreyfaridcom.png" height="35px" style="text-align:center; margin-top:7px" alt="El Rey Farid";></div>
@@ -74,11 +63,18 @@
             <nav style="text-align:center; margin-top:12px; color:white; font-family:JosefinSans">
              <span><a href="#principal" onclick="return principalsection()" class="cabeceraLink">                         <b style="border-right: thin; border-style:solid; border-color:white; border-top:none; border-bottom:none; border-left:none; font-family:JosefinSans">INICIO &nbsp;&nbsp; </b></b></span>
              <span><a href="http://www.facebook.com/elreyfarid" class="cabeceraLink" target="_blank"><b style="border-right: thin; border-style:solid; border-color:white; border-top:none; border-bottom:none; border-left:none;">&nbsp;&nbsp;FAN PAGE&nbsp;&nbsp;</b></a></span>
-             <span><a href="mailto:contacto@elreyfarid.com" class="cabeceraLink">                    <b>&nbsp;&nbsp;CONTACTO</b></a></span>
+             <span><a href="mailto:contacto@elreyfarid.com" subject="Consulta%20desde%20sitio%20web" class="cabeceraLink">                    <b>&nbsp;&nbsp;CONTACTO</b></a></span>
             </nav>
           </div>
        </div>
       </div>
+	<div class="container-fluid">
+		<div class="row" id="rowMenuXS">
+			<div id="btnAtras"		class="col-xs-4 hidden-sm hidden-md hidden-xl hidden-lg ">1</div>
+			<div id="btnMenu" 		class="col-xs-4 hidden-sm hidden-md hidden-xl hidden-lg ">2</div>
+			<div id="btnAdelante" 	class="col-xs-4 hidden-sm hidden-md hidden-xl hidden-lg">3</div>
+		</div>
+	</div>
     </header>
 <div class="container-fluid"> 
 <!--LAS TRES COLUMNAS: NAVEGACION, INFORMACION PRINCIPAL, INFORMACION SECUNDARIA LATERAL-->
