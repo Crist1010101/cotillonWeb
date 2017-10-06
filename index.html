@@ -21,7 +21,7 @@
     <title>Cotillon | El Rey Farid</title>
     <style>
     body{
-        background-color:#1e74ff;
+        background-color:white;
         height:2000px;
         }
     html{
@@ -52,26 +52,38 @@
    }(document, 'script', 'facebook-jssdk'));
   </script>
     <header>
-      <div id="contendorprincipal" class="container-fluid navbar-fixed-top">
-       <div class="row">
-        <div class="col-xs-4 col-md-2 col-sm-2 col-xl-1 col-lg-1 barrasuperior"><!--logo solo-->
+      <div id="contendorCabecera" class="container-fluid navbar-fixed-top">
+       	<div class="row">
+        <div class="col-xs-4 col-sm-2 col-md-2 col-lg-1 barrasuperior"><!--logo solo-->
         	<img  style="margin-top:4px; text-align:center; vertical-align:media-middle"; src="img/logosolo.png"; width="50px"; alt="Tu Fiesta Personalizada";>
         </div>
-          <div class="col-xs-8 col-sm-5 col-md-4 col-xl-5 col-lg-5 barrasuperior"><!--logo letras-->
-            <img class="botonsuperior" src="img/elreyfaridcom.png" height="35px" style="text-align:center; margin-top:7px" alt="El Rey Farid";></div>
-          <div class="hidden-xs col-sm-5 col-md-6 col-xl-6 col-lg-6 barrasuperior">
+          <div class="col-xs-8 col-sm-5 col-md-4 col-lg-5 barrasuperior"><!--logo letras-->
+            <img class="botonsuperior" src="img/elreyfaridcom.png" height="35px" style="text-align:center; margin-top:7px" alt="El Rey Farid";>
+		 </div>
+          <div class="hidden-xs col-sm-5 col-md-6 col-lg-6 barrasuperior">
             <nav style="text-align:center; margin-top:12px; color:white; font-family:JosefinSans">
-             <span><a href="#principal" onclick="return principalsection()" class="cabeceraLink">                         <b style="border-right: thin; border-style:solid; border-color:white; border-top:none; border-bottom:none; border-left:none; font-family:JosefinSans">INICIO &nbsp;&nbsp; </b></b></span>
-             <span><a href="http://www.facebook.com/elreyfarid" class="cabeceraLink" target="_blank"><b style="border-right: thin; border-style:solid; border-color:white; border-top:none; border-bottom:none; border-left:none;">&nbsp;&nbsp;FAN PAGE&nbsp;&nbsp;</b></a></span>
-             <span><a href="mailto:contacto@elreyfarid.com" subject="Consulta%20desde%20sitio%20web" class="cabeceraLink">                    <b>&nbsp;&nbsp;CONTACTO</b></a></span>
+             <span>
+				 <a href="#principal" onclick="return principalsection()" class="cabeceraLink">
+					 <b style="border-right: thin; border-style:solid; border-color:white; border-top:none; border-bottom:none; border-left:none; font-family:JosefinSans">
+						 INICIO &nbsp;&nbsp;
+					 </b>
+				 </a>
+			 </span>
+             <span>
+				 <a href="http://www.facebook.com/elreyfarid" class="cabeceraLink" target="_blank">
+					 <b style="border-right: thin; border-style:solid; border-color:white; border-top:none; border-bottom:none; border-left:none;">&nbsp;&nbsp;FAN PAGE&nbsp;&nbsp;</b>
+				 </a>
+			 </span>
+             <span>
+				 <a href="mailto:contacto@elreyfarid.com" subject="Consulta%20desde%20sitio%20web" class="cabeceraLink">                    <b>&nbsp;&nbsp;CONTACTO</b>
+				 </a>
+			 </span>
             </nav>
           </div>
        </div>
-      </div>
-	<div class="container-fluid">
-		<div class="row" id="rowMenuXS">
-			<div id="btnAtras"		class="col-xs-4 hidden-sm hidden-md hidden-xl hidden-lg ">1</div>
-			<div id="btnMenu" 		class="col-xs-4 hidden-sm hidden-md hidden-xl hidden-lg ">2</div>
+		<div class="row">
+			<div id="btnAtras"		class="col-xs-4 hidden-sm hidden-md hidden-xl hidden-lg">1</div>
+			<div id="btnMenu" 		class="col-xs-4 hidden-sm hidden-md hidden-xl hidden-lg">2</div>
 			<div id="btnAdelante" 	class="col-xs-4 hidden-sm hidden-md hidden-xl hidden-lg">3</div>
 		</div>
 	</div>
@@ -79,7 +91,7 @@
 <div class="container-fluid"> 
 <!--LAS TRES COLUMNAS: NAVEGACION, INFORMACION PRINCIPAL, INFORMACION SECUNDARIA LATERAL-->
   <div class="row">
-    <nav id="barranavegacion" class="col-xs-12 col-sm-12 col-md-2 col-xl-2 col-lg-2"><!--barra navegacion principal-->
+    <div id="barranavegacion"   class="hidden-xs col-sm-3  col-md-2 col-lg-2"><!--barra navegacion principal-->
       <ul style="list-style:none; padding:5px; text-align:center;">
         <li><a href="#Babyshower" onclick="return babyshowersection()">      <div class="botonazulBarra"><b class="botonText">Baby Shower</b></div></a></li>
         <li><a href="#Infantil"        onclick="return infantilsection()">        <div class="botonazulBarra"><b class="botonText">Infantil</b></div></a></li>
@@ -94,12 +106,12 @@
         <li><a href="#tarjetasdeinvitacion"  onclick="return invitacionesssection()">   <div class="botonamarilloBarra"><b class="botonText">Tarjetas De Invitación</b></div></a></li>
         <li><a href="#pinatas"  onclick="return pinatassection()">         <div class="botonamarilloBarra"><b class="botonText">Piñatas</b></div></a></li>
       </ul>
-    </nav>
-    <div title="presentacion"; id="columnacentral" class="col-xs-12 col-sm-8 col-md-8 col-xl-8 col-lg-8 columnaprincipal";><!--contenido principal-->
+    </div>
+    <div id="columnacentral" 	class="col-xs-12 col-sm-9  col-md-8 col-lg-8"><!--contenido principal-->
       <object id="contenidoprincipal" type="text/html" data="presentacion.html" width="100%" height="5000px">
       </object>
     </div>
-    <aside id="columnasecundaria" class="col-xs-12 col-sm-12 col-md-2 col-xl-2 col-lg-2">
+    <div id="columnasecundaria" class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
       <center><img src="img/gifprimero.gif" width="200px" style="margin-top:5px; margin-bottom;5px; text-align:center; margin-right:5px"><br>
           <img src="img/gifA.gif"width="200px" style="margin-top:5px; margin-bottom;5px; text-align:center; margin-right:5px"><br>
       </center>
@@ -123,20 +135,11 @@
           </a>
         </blockquote>
       </div>
-    </aside>
+    </div>
     <!--navegacion secundaria, publicidad, promociones-->
   </div>
 </div>
-    <script type="text/javascript">
-      function desplegarMenu()
-                              {
-                              menuOFF.style.visibility="visible";
-                              menuOFF.style.display="block";
-                              }
-      function cerrarMenu()
-                              {
-                              menuOFF.style.visibility="hidden";
-                              }
-    </script>
+    <script type="text/javascript" src="js/screenSize.js"> 
+</script>
   </body>
 </html>

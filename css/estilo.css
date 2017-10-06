@@ -6,7 +6,7 @@ src: url(../fonts/JosefinSans-SemiBold.ttf);
 }
 @font-face{
 font-family:BerlinSansFB;
-src:url(../fonts/Berlin-Sans-FB-Bold.ttf)
+src:url(../fonts/Berlin-Sans-FB-Bold.ttf);
 }
 * {
 margin: 0px;
@@ -24,15 +24,16 @@ img.imagenCabecera{
                     box-shadow:0px 0px 0px white;
                     }
 div{
-    font-family:Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif"
+    font-family:Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
    }
 img.imgBoton{
             text-align:center;
             margin-top:10%;
-            margin-left:10px width:90%
+            margin-left:10px;
+			width:90%
             }
 #barranavegacion{
-                margin-top:50px;
+                margin-top:45px;
                 margin-left:0px;
                 margin-right:0px;
                 padding-top:0px;
@@ -41,11 +42,13 @@ img.imgBoton{
                 height:1000px; 
                 padding:0pt;
 				display:block;
+				float:left;
+				
                 }
 div.barrasuperior{
                   background-image:url(../img/fondoBarrasuperior.png);
                   background-repeat:round; 
-                  height:50px;
+                  height:45px;
                   width:padding;
 				  margin-top:0px;
                   margin-left:0px;
@@ -60,27 +63,17 @@ div.barrasuperior{
                padding-top:0px;
                padding-left:0px;
                padding-right:0px;
-               margin-top:50px;
+               margin-top:45px;
                margin-left:0px;
                margin-right:0px;
-			   display:block
+			   display:block;
                }
-#contenidoprincipal{
-                    height:5000px;
-                    margin-left:0px;
-                    margin-top:0px;
-                    margin-right:0px;
-                    padding-left:0px;
-                    padding-right:0px;
-                    padding-top:0px;
-					display:block;
-                  }
 hgroup{
-      color:#1B0B82
+      color:#1B0B82;
       }
 img.botonsuperior{
                  margin-top:5px;
-                 text-align:center
+                 text-align:center;
                  }
 div.botonamarilloBarra{
                    margin-bottom:0px;
@@ -95,7 +88,7 @@ div.botonamarilloBarra{
                    background-size:cover;
                    }
 div.botonamarilloBarra:hover{
-                            background-image:url(../img/botonverde.png)
+                            background-image:url(../img/botonverde.png);
                             }
 div.botonazulBarra{
                margin-bottom:0px;
@@ -143,7 +136,7 @@ p{
                    height:800px; padding:0 0 0 0 ;
                    margin:0 0 0 0;
                    float:left;
-                   margin-top:50px;
+                   margin-top:45px;
                   }
 b.botonText{
             text-align:center;
@@ -178,7 +171,7 @@ a.btnBabyshower:visited{
                text-align:center;
               }
 .divBotonmis15:hover{
-                     background-color:rgb(167, 70, 254)
+                     background-color:rgb(167, 70, 254);
                     }
 a.btnMis15:visited{
                    text-decoration:none;
@@ -218,7 +211,7 @@ a.fanpagelink{
                   height:50px;
                   }
 .divBotoninfantil:hover{
-                       background-color:rgb(61, 149, 252)
+                       background-color:rgb(61, 149, 252);
                        }
 .imagenCarrusel{
                 width:500px;
@@ -230,14 +223,18 @@ a.fanpagelink{
       width: 70%;
       margin: auto;
 }
-#rowMenuXS{
-		margin-top:60px;
-		background-image:url(../img/botonmagenta.png);
-		height:60px;
-		background-image:radial-gradient();
-		}
 
-
-
+#btnAtras{
+	background-color:yellow;
+height:45px;
+}
+#btnMenu{
+	background-color:yellow;
+	height:45px;
+}
+#btnAdelante{
+	background-color:yellow;
+	height:45px;
+}
 /*menu desplegable*/
 /* fin del menu desplegable*/
