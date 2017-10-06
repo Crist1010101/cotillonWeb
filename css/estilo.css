@@ -67,6 +67,7 @@ div.barrasuperior{
                margin-left:0px;
                margin-right:0px;
 			   display:block;
+			   float:left;
                }
 hgroup{
       color:#1B0B82;
@@ -235,6 +236,14 @@ height:45px;
 #btnAdelante{
 	background-color:yellow;
 	height:45px;
+}
+#contenidoprincipal{
+	display:block;
+	float:left;
+}
+#menuVistaXS{
+	display:block;
+	float:left;
 }
 /*menu desplegable*/
 /* fin del menu desplegable*/
